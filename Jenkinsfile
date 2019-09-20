@@ -6,8 +6,8 @@ pipeline{
                 withAWS(region:'ap-southeast-2',credentials:'aws') {
                     sh 'echo "Create the create cluster "'
                     sh '''
-                       eksctl create capstonecluster \
-                       --name capston \
+                       eksctl create cluster \
+                       --name capstonecluster \
                        --region ap-southeast-2
                        --version 1.14 \
                        --nodegroup-name standard-workers \
