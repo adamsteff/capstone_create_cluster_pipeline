@@ -8,7 +8,7 @@ pipeline{
                     sh '''
                        eksctl create cluster \
                        --name capstonecluster \
-                       --region ap-southeast-2
+                       --region ap-southeast-2 \
                        --version 1.14 \
                        --nodegroup-name standard-workers \
                        --node-type t3.medium \
