@@ -1,6 +1,6 @@
 
 # Create cluster pipeline
-This GitHub repository was created as part of my Udacity Capstone - Cloud DevOps project. This repository was used to create a Jenkins Pipeline.
+This GitHub repository was created as part of my Udacity Capstone - Cloud DevOps project. This repository was used to create a Jenkins CI/CD pipeline to create an AWS EKS Cluster.
 
 ## Jenkins Pipeline Step 1
 The first in the pipeline was used to spin up an AWS EKS Cluster using `eksctl create cluster` command. AWS Cloudformation then created the cluster and nodes.
